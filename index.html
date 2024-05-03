@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <section class="container">
+      <audio src="/music/coverless-book-lofi-186307.mp3"></audio>
+      <main class="player">
+        <div class="album">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1714115034964-16b20994142a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8"
+            alt="cover"
+          />
+        </div>
+        <div class="info">
+          <h2>Judul lagu</h2>
+          <p>Artist</p>
+        </div>
+        <div class="progress">
+          <p>00:00</p>
+          <span class="bar"> </span>
+          <p>00:00</p>
+        </div>
+        <div class="action">
+          <button><i class="ph-fill ph-skip-back"></i></button>
+          <button>
+            <i class="ph-fill ph-play"></i>
+            <i class="ph-fill ph-pause hidden"></i>
+          </button>
+          <button><i class="ph-fill ph-skip-forward"></i></button>
+        </div>
+      </main>
+      <div class="playlist">
+        <ul>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+          <li>Lagu 1</li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
